@@ -1,0 +1,7 @@
+digraph {
+	A [label="Is petal length (cat) == \"low\"?"]
+	B [label="Categorize as \"p+\""]
+	C [label="Categorize as \"p-\""]
+	A -> B [label=Yes]
+	A -> C [label=No]
+}
